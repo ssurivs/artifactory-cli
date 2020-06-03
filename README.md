@@ -10,7 +10,5 @@ cd artifactory-cli/
 
 pip install requests argparse validate_email validators
 
-pip install -e . 
-
-pip install  artifactory-cli-0.0.1 
+pip install --extra-index-url 'https://anonymous@artiola.jfrog.io/artifactory/api/pypi/pypi-local/simple' artifactory-cli
 
