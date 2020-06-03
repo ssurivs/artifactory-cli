@@ -1,3 +1,5 @@
 requests~=2.23.0
 setuptools~=41.2.0
 validators~=0.15.0
+argparse~=1.4.0
+validate-email~=1.3
